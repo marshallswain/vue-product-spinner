@@ -1,6 +1,6 @@
 {
   "name": "@rovit/product-spinner",
-  "version": "0.2.4",
+  "version": "0.2.1",
   "private": false,
   "author": {
     "name": "Michele Riva",
@@ -38,9 +38,9 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "release:pre": "npm run build && npm version prerelease && npm publish --tag pre",
-    "release:patch": "npm run build && npm version patch && npm publish && git push --tags",
-    "release:minor": "npm run build && npm version minor && npm publish && git push --tags",
-    "release:major": "npm run build && npm version major && npm publish && git push --tags"
+    "release:patch": "npm run build && npm version patch && npm publish",
+    "release:minor": "npm run build && npm version minor && npm publish",
+    "release:major": "npm run build && npm version major && npm publish"
   },
   "dependencies": {
     "vue": "2.6.3"

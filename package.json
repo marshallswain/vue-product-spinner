@@ -28,7 +28,7 @@
   "files": [
     "dist/*",
     "src/components/VueProductSpinner.vue",
-    "src/PreloadImages.js",
+    "src/components/PreloadImages.js",
     "./*.md"
   ],
   "scripts": {

@@ -254,3 +254,9 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/vue,node,linux,macos,windows,intellij,visualstudiocode
+/dist/VueProductSpinner.umd.min.js.map
+/dist/VueProductSpinner.umd.min.js
+/dist/VueProductSpinner.umd.js.map
+/dist/VueProductSpinner.umd.js
+/dist/VueProductSpinner.common.js.map
+/dist/VueProductSpinner.common.js

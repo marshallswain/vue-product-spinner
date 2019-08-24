@@ -24,6 +24,7 @@
     "url": "https://github.com/micheleriva/vue-product-spinner"
   },
   "main": "./dist/VueProductSpinner.common.js",
+  "module": "./src/components/VueProductSpinner.vue",
   "files": [
     "dist/*",
     "src/components/VueProductSpinner.vue",

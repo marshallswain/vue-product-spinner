@@ -37,10 +37,10 @@
     "build:demo": "vue-cli-service build --dest demo && sh ./build-demo.sh",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
-    "release:pre": "npm run build && npm version prerelease && npm publish --tag pre",
-    "release:patch": "npm run build && npm version patch && npm publish",
-    "release:minor": "npm run build && npm version minor && npm publish",
-    "release:major": "npm run build && npm version major && npm publish"
+    "release:pre": "npm version prerelease && npm publish --tag pre",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
   },
   "dependencies": {
     "vue": "2.6.3"
